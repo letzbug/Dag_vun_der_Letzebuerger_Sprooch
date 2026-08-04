@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="lb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dag vun der Lëtzebuerger Sprooch | UniPop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="page-shell">
+
+  <section class="hero" aria-label="Dag vun der Lëtzebuerger Sprooch">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-copy">
+        <div class="eyebrow">26. SEPTEMBER</div>
+        <h1>
+          <span>Dag vun der</span>
+          <em>Lëtzebuerger Sprooch</em>
+        </h1>
+
+        <div class="subtitle">
+          <span class="subtitle-line"></span>
+          <span>Podcast &amp; Coursen ronderëm eis Sprooch a Kultur</span>
+        </div>
+
+        <p class="intro">
+          Stäerkëchen zu Lëtzebuerg: e Gespréich iwwer Kachkultur,
+          Traditiounen a lëtzebuergesch Identitéit.
+        </p>
+      </div>
+
+      <section class="player-card" aria-label="Podcast Player">
+        <div class="cover">
+          <div class="cover-kicker">PODCAST</div>
+          <div class="cover-title">STÄERKËCHEN<br>ZU LËTZEBUERG</div>
+          <div class="cover-pot">♨</div>
+        </div>
+
+        <div class="player-main">
+          <div class="player-kicker">PODCAST</div>
+          <h2>Stäerkëchen zu Lëtzebuerg</h2>
+          <p>D’Kachkultur zu Lëtzebuerg</p>
+
+          <div class="waveform" aria-hidden="true">
+            <span style="height:26%"></span><span style="height:55%"></span><span style="height:35%"></span>
+            <span style="height:72%"></span><span style="height:48%"></span><span style="height:82%"></span>
+            <span style="height:42%"></span><span style="height:64%"></span><span style="height:34%"></span>
+            <span style="height:78%"></span><span style="height:52%"></span><span style="height:88%"></span>
+            <span style="height:46%"></span><span style="height:69%"></span><span style="height:32%"></span>
+            <span style="height:58%"></span><span style="height:76%"></span><span style="height:44%"></span>
+            <span style="height:81%"></span><span style="height:52%"></span><span style="height:66%"></span>
+            <span style="height:38%"></span><span style="height:73%"></span><span style="height:48%"></span>
+            <span style="height:61%"></span><span style="height:84%"></span><span style="height:41%"></span>
+            <span style="height:70%"></span><span style="height:35%"></span><span style="height:54%"></span>
+            <span style="height:76%"></span><span style="height:43%"></span>
+          </div>
+
+          <audio id="podcast" preload="auto" autoplay>
+            <source src="assets/audio/podcast.wav" type="audio/wav">
+          </audio>
+
+          <div class="time-row">
+            <span id="currentTime">00:00</span>
+            <span id="duration">--:--</span>
+          </div>
+
+          <div class="controls">
+            <button class="icon-btn" id="back10" aria-label="10 Sekonnen zréck">↶<small>10</small></button>
+            <button class="play-btn" id="playPause" aria-label="Play / Pause">▶</button>
+            <button class="icon-btn" id="forward10" aria-label="10 Sekonnen vir">↷<small>10</small></button>
+          </div>
+
+          <input class="progress" id="progress" type="range" min="0" max="100" value="0" aria-label="Podcast Fortschrëtt">
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="courses-head">
+      <div>
+        <div class="section-kicker">COURSEN ZUM THEMA</div>
+        <h2>Léier Lëtzebuergesch. Entdeckt eis Kultur.</h2>
+      </div>
+
+      <div class="carousel-buttons">
+        <button id="prevCourse" aria-label="Viregte Cours">‹</button>
+        <button class="accent" id="nextCourse" aria-label="Nächste Cours">›</button>
+      </div>
+    </div>
+
+    <div class="course-viewport">
+      <div class="course-track" id="courseTrack">
+
+        <article class="course-card">
+          <img src="assets/img/course-01.jpg" alt="">
+          <div class="course-body">
+            <span class="tag">SPROOCH &amp; KOMMUNIKATIOUN</span>
+            <h3>Lëtzebuergesch fir Ufänger</h3>
+            <p>← Niveau A1.1</p>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="assets/img/course-02.jpg" alt="">
+          <div class="course-body">
+            <span class="tag">KULTUR &amp; GESELLSCHAFT</span>
+            <h3>D’Land, d’Leit, d’Sprooch</h3>
+            <p>← Virtrag</p>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="assets/img/course-03.jpg" alt="">
+          <div class="course-body">
+            <span class="tag">SPROOCH &amp; KOMMUNIKATIOUN</span>
+            <h3>Schreiwen op Lëtzebuergesch</h3>
+            <p>← Atelier</p>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="assets/img/course-04.jpg" alt="">
+          <div class="course-body">
+            <span class="tag">KULTUR &amp; KREATIVITÉIT</span>
+            <h3>Rezepter a Geschichten aus eiser Regioun</h3>
+            <p>← Workshop</p>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img src="assets/img/course-05.jpg" alt="">
+          <div class="course-body">
+            <span class="tag">KULTUR &amp; BEWOSSTSINN</span>
+            <h3>Lëtzebuergesch Dialekter</h3>
+            <p>← Cours</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="dots" id="dots" aria-hidden="true"></div>
+  </section>
+
+</main>
+
+<script>
+const audio = document.getElementById('podcast');
+const playPause = document.getElementById('playPause');
+const progress = document.getElementById('progress');
+const currentTime = document.getElementById('currentTime');
+const duration = document.getElementById('duration');
+
+function fmt(seconds) {
+  if (!Number.isFinite(seconds)) return '--:--';
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60);
+  return String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+}
+
+function syncButton() {
+  playPause.textContent = audio.paused ? '▶' : 'Ⅱ';
+}
+
+audio.addEventListener('loadedmetadata', () => {
+  duration.textContent = fmt(audio.duration);
+});
+
+audio.addEventListener('timeupdate', () => {
+  currentTime.textContent = fmt(audio.currentTime);
+  progress.value = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+});
+
+audio.addEventListener('play', syncButton);
+audio.addEventListener('pause', syncButton);
+
+playPause.addEventListener('click', async () => {
+  if (audio.paused) await audio.play();
+  else audio.pause();
+});
+
+document.getElementById('back10').addEventListener('click', () => {
+  audio.currentTime = Math.max(0, audio.currentTime - 10);
+});
+
+document.getElementById('forward10').addEventListener('click', () => {
+  audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 10);
+});
+
+progress.addEventListener('input', () => {
+  if (audio.duration) audio.currentTime = (progress.value / 100) * audio.duration;
+});
+
+// Browsers may block audible autoplay until the visitor interacts with the page.
+window.addEventListener('load', () => {
+  audio.play().catch(() => syncButton());
+});
+
+const track = document.getElementById('courseTrack');
+const cards = [...track.children];
+const dots = document.getElementById('dots');
+let index = 0;
+
+cards.forEach((_, i) => {
+  const dot = document.createElement('span');
+  if (i === 0) dot.classList.add('active');
+  dots.appendChild(dot);
+});
+
+function visibleCards() {
+  if (window.innerWidth < 700) return 1;
+  if (window.innerWidth < 1100) return 2;
+  return 4;
+}
+
+function updateCarousel() {
+  const card = cards[0];
+  if (!card) return;
+  const gap = 18;
+  const step = card.getBoundingClientRect().width + gap;
+  const maxIndex = Math.max(0, cards.length - visibleCards());
+  index = Math.max(0, Math.min(index, maxIndex));
+  track.style.transform = `translateX(${-index * step}px)`;
+
+  [...dots.children].forEach((d, i) => d.classList.toggle('active', i === index));
+}
+
+document.getElementById('nextCourse').addEventListener('click', () => { index++; updateCarousel(); });
+document.getElementById('prevCourse').addEventListener('click', () => { index--; updateCarousel(); });
+
+setInterval(() => {
+  const maxIndex = Math.max(0, cards.length - visibleCards());
+  index = index >= maxIndex ? 0 : index + 1;
+  updateCarousel();
+}, 6500);
+
+window.addEventListener('resize', updateCarousel);
+updateCarousel();
+</script>
+</body>
+</html>
