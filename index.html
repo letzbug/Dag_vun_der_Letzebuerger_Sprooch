@@ -239,11 +239,11 @@ const cards = [...track.children];
 const dots = document.getElementById('dots');
 let index = 0;
 
-cards.forEach((_, i) => {
+for (let i = 0; i < 2; i++) {
   const dot = document.createElement('span');
   if (i === 0) dot.classList.add('active');
   dots.appendChild(dot);
-});
+}
 
 function visibleCards() {
   if (window.innerWidth < 700) return 1;
