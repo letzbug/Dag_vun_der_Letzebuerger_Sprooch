@@ -341,8 +341,37 @@ h1 em{
   display:block;
   flex:0 0 calc((100% - 54px) / 4);
   min-width:0;
-  text-decoration:none;
-  color:inherit;
+  text-decoration:none !important;
+  color:inherit !important;
+}
+
+.course-card-link:link,
+.course-card-link:visited,
+.course-card-link:hover,
+.course-card-link:active{
+  color:inherit !important;
+  text-decoration:none !important;
+}
+
+.course-card-link h3,
+.course-card-link p{
+  color:#fff !important;
+  text-decoration:none !important;
+}
+
+.course-card-link *{
+  text-decoration:none !important;
+}
+
+.course-card-link h3,
+.course-card-link p {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.course-card-link * {
+  text-decoration: none !important;
+}
 }
 
 .course-card-link:hover{
