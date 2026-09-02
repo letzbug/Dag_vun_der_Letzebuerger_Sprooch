@@ -229,3 +229,76 @@ button,input{font:inherit}
   .course-card-link{flex-basis:100%}
   .course-card img{height:210px}
 }
+
+
+/* Campaign sign-off / official footer */
+.campaign-signoff{
+  background:var(--campaign-dark);
+  color:var(--campaign-white);
+  text-align:center;
+  padding:54px 24px 42px;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+.campaign-signoff h2{
+  margin:0;
+  font-family:"Unbounded",Arial,sans-serif;
+  font-size:clamp(25px,2.3vw,37px);
+  line-height:1.08;
+  letter-spacing:-.04em;
+  font-weight:800;
+}
+.campaign-date{
+  margin:13px 0 28px;
+  font-size:18px;
+  line-height:1.3;
+  font-weight:700;
+}
+.government-lockup{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+  text-align:left;
+  margin:0 auto;
+}
+.government-lion{
+  width:51px;
+  height:auto;
+  display:block;
+  flex:0 0 auto;
+}
+.government-divider{
+  width:2px;
+  height:82px;
+  background:rgba(255,255,255,.92);
+  display:block;
+  flex:0 0 auto;
+}
+.government-copy{
+  display:flex;
+  flex-direction:column;
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:13px;
+  line-height:1.42;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  min-width:290px;
+}
+.government-copy small{
+  margin-top:2px;
+  font-size:13px;
+  line-height:1.35;
+  letter-spacing:0;
+  text-transform:none;
+}
+
+@media (max-width:600px){
+  .campaign-signoff{padding:42px 18px 36px}
+  .campaign-date{font-size:16px;margin-bottom:24px}
+  .government-lockup{gap:12px}
+  .government-lion{width:43px}
+  .government-divider{height:72px}
+  .government-copy{font-size:11px;min-width:0}
+  .government-copy small{font-size:11px}
+}
