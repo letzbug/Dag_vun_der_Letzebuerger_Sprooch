@@ -119,6 +119,7 @@ button,input{font:inherit}
 .subtitle{display:flex;align-items:center;gap:18px;font-size:19px;line-height:1.35}
 .subtitle-line{width:44px;height:3px;background:var(--campaign-pink);flex:0 0 auto}
 .intro{max-width:535px;margin:40px 0 0;font-size:19px;line-height:1.48;color:var(--soft-white)}
+.intro-guests{display:block;margin-top:10px;font-size:.88em;line-height:1.45;color:var(--soft-white);opacity:.92}
 
 .player-card{
   display:grid;
