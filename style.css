@@ -169,7 +169,6 @@ button,input{font:inherit}
 .bridge-inner{width:min(1480px,100%);margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:30px}
 .bridge-word{font-family:"Unbounded",Arial,sans-serif;font-weight:800;font-size:clamp(22px,2.15vw,35px);letter-spacing:-.035em}
 .bridge-inner p{margin:0;font-size:17px;font-weight:700}
-.bridge-unipop{font-family:"Unbounded",Arial,sans-serif;font-size:12px;font-weight:800;letter-spacing:.09em;padding:10px 14px;border:2px solid var(--campaign-dark);border-radius:999px;white-space:nowrap}
 
 .courses{padding:42px 4vw 56px;background:var(--campaign-dark)}
 .courses-head{width:min(1480px,100%);margin:0 auto 22px;display:flex;justify-content:space-between;align-items:end;gap:30px}
@@ -212,7 +211,6 @@ button,input{font:inherit}
 
 @media (max-width:860px){
   .bridge-inner{grid-template-columns:1fr;gap:8px}
-  .bridge-unipop{width:max-content;margin-top:5px}
 }
 
 @media (max-width:760px){
