@@ -9,6 +9,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700;800&family=Unbounded:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <!-- TEMP PODCAST BANNER START — diesen ganzen Block später einfach löschen -->
+  <style>
+    .player-card{position:relative; overflow:hidden;}
+    .podcast-release-banner{
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%);
+      width:110%;
+      z-index:20;
+      padding:14px 24px;
+      background:#ffb9c0;
+      color:#254051;
+      border-top:2px solid rgba(37,64,81,.35);
+      border-bottom:2px solid rgba(37,64,81,.35);
+      box-shadow:0 8px 24px rgba(0,0,0,.18);
+      text-align:center;
+      font-family:'Unbounded',sans-serif;
+      font-size:15px;
+      font-weight:800;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      pointer-events:none;
+    }
+    @media (max-width:700px){
+      .podcast-release-banner{
+        width:120%;
+        padding:11px 18px;
+        font-size:11px;
+        line-height:1.35;
+      }
+    }
+  </style>
+  <!-- TEMP PODCAST BANNER END -->
 </head>
 <body>
 
@@ -37,11 +72,14 @@
         <p class="intro">
           Vum Dëppen op den Dësch: e Gespréich iwwer eis Kachkultur
           a Lëtzebuerger Traditiounen.
-          <span class="intro-guests">Mam Michel Lanners, Léa Linster, Bibi Wintersdorf,<br>a Ben Weber a Carlo Weber</span>
+          <span class="intro-guests">Mam Michel Lanners, Léa Linster, Bibi Wintersdorf,<br>Ben Weber a Carlo Weber</span>
         </p>
       </div>
 
       <section class="player-card" aria-label="Podcast Player">
+      <!-- TEMP PODCAST BANNER START — später einfach diese eine Zeile löschen -->
+      <div class="podcast-release-banner">PODCAST AB 26.09.2026 ZE HÉIEREN</div>
+      <!-- TEMP PODCAST BANNER END -->
         <div class="cover">
           <div class="cover-kicker">DAT ASS</div>
           <div class="cover-title">Vum Dëppen<br>op den Dësch</div>
